@@ -1,0 +1,121 @@
+# Copyright (C) 2024 Gravity Forms
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms Postmark Add-On 1.4.0\n"
+"Report-Msgid-Bugs-To: https://gravityforms.com/support\n"
+"Last-Translator: Gravity Forms <support@gravityforms.com>\n"
+"Language-Team: Gravity Forms <support@gravityforms.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-27T18:00:41+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: gravityformspostmark\n"
+
+#. Plugin Name of the plugin
+msgid "Gravity Forms Postmark Add-On"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://gravityforms.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Integrates Gravity Forms with Postmark, allowing Gravity Forms notifications to be sent from your Postmark account."
+msgstr ""
+
+#. Author of the plugin
+msgid "Gravity Forms"
+msgstr ""
+
+#: class-gf-postmark.php:283
+msgid "Postmark makes it easy to reliably send and track email notifications. If you don't have a Postmark account, you can %1$ssign up for one here%2$s. Once you have signed up, you can %3$sfind your Account and Server tokens here%4$s."
+msgstr ""
+
+#: class-gf-postmark.php:291
+msgid "Account API Token"
+msgstr ""
+
+#: class-gf-postmark.php:298
+msgid "Server API Token"
+msgstr ""
+
+#: class-gf-postmark.php:305
+msgid "Email Statistics"
+msgstr ""
+
+#: class-gf-postmark.php:311
+msgid "Postmark settings have been updated."
+msgstr ""
+
+#: class-gf-postmark.php:340
+#: class-gf-postmark.php:455
+msgid "Error Initializing Postmark API."
+msgstr ""
+
+#: class-gf-postmark.php:350
+msgid "Error retrieving email statistics."
+msgstr ""
+
+#: class-gf-postmark.php:358
+msgid "Sent"
+msgstr ""
+
+#: class-gf-postmark.php:359
+msgid "Bounced"
+msgstr ""
+
+#: class-gf-postmark.php:360
+msgid "Spam Complaints"
+msgstr ""
+
+#: class-gf-postmark.php:361
+msgid "Opens"
+msgstr ""
+
+#: class-gf-postmark.php:362
+msgid "Unique Opens"
+msgstr ""
+
+#: class-gf-postmark.php:363
+msgid "Tracked"
+msgstr ""
+
+#: class-gf-postmark.php:399
+msgid "Postmark"
+msgstr ""
+
+#: class-gf-postmark.php:403
+msgid "You must %sauthenticate with Postmark%s before sending emails using their service."
+msgstr ""
+
+#: class-gf-postmark.php:467
+msgid "Unable to retrieve sender signatures."
+msgstr ""
+
+#. translators: Placeholders represent opening and closing link tags.
+#: class-gf-postmark.php:496
+#: class-gf-postmark.php:570
+msgid "To setup a notification using Postmark, you must define at least one %1$sSender Signature%3$s. You can learn about Sender Signatures in the %2$sPostmark Help Center%3$s."
+msgstr ""
+
+#: class-gf-postmark.php:595
+msgid "Email Tracking"
+msgstr ""
+
+#: class-gf-postmark.php:599
+msgid "Enable open tracking for this notification"
+msgstr ""
+
+#. translators: Add-on name followed by the error message. e.g. Gravity Forms Postmark Add-On was unable to send the notification. Error: The 'From' address you supplied (testing@example.com) is not a Sender.
+#: class-gf-postmark.php:759
+msgid "%1$s was unable to send the notification. Error: %2$s"
+msgstr ""
+
+#. translators: Add-on name followed by the successful result message. e.g. Gravity Forms Postmark Add-On successfully passed the notification to Postmark.
+#: class-gf-postmark.php:784
+msgid "%1$s successfully passed the notification to Postmark."
+msgstr ""
